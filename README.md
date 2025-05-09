@@ -2,6 +2,26 @@
 
 # Submission for GUI Handling
 
+The code below are all the buttons in the menu:
+
+private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {                                         
+        // TODO add your handling code here:
+        NewEntry ne = new NewEntry();
+        ne.setVisible(true);
+        
+    }                                        
+
+    private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {                                         
+        // TODO add your handling code here:
+        ViewEntry ve = new ViewEntry();
+        ve.setVisible(true);
+    }                                        
+
+    private void jButton4ActionPerformed(java.awt.event.ActionEvent evt) {                                         
+        // TODO add your handling code here:
+        System.exit(0);
+    }                       
+
 Images of the code working below:
 
 ![Screenshot 2025-05-09 231820](https://github.com/user-attachments/assets/4db85161-2fea-4388-a875-82d447db4247)
